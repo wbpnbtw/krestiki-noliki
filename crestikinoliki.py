@@ -69,7 +69,7 @@ while game_over == False:
         symbol = "X"
         step = int(input("Человек, ваш ход: "))
     else:
-        print("Компьютер делает ход: ")
+        print("wbpn делает ход: ")
         symbol = "O"
         step = AI()
     if step != "":
